@@ -1,0 +1,80 @@
+/* GENERALE */
+*
+{
+    margin: 0 ;
+    padding: 0;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: #8DA6FF;
+}
+p
+{
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* MAIN-IDEA */
+#main-idea
+{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/nba-resized.jpg") ;
+}
+
+#main-idea .container .sign_space
+{
+    position: relative;
+    top: 50px;
+    left: 650px;
+    text-align: center;
+    height: 500px; ;
+    width: 400px; ;
+    background-color: #36353D;
+}
+#main-idea .container .sign_space h1
+{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+#main-idea .container .sign_space h1 a
+{
+    font-weight: bolder;
+    color: white;
+}
+#main-idea .container .sign_space input
+{
+    color: black;
+    padding-left: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 35px;
+}
+#main-idea .container .sign_space .checkbox
+{
+   /*margin-right: 35px;*/
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 15px;
+    height: 15px;
+}
+#main-idea .container .sign_space .p1
+{
+    padding-bottom: 30px;
+}
+#main-idea .container .sign_space .p2
+{
+    margin-right: 150px;
+}
+#main-idea .container .sign_space .sign
+{
+    height: 35px;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}

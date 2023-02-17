@@ -1,0 +1,373 @@
+/* GENERALE */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    color: black;
+}
+.orange
+{
+    color: #FF5C00;
+    padding-bottom: 10px;
+}
+p
+{
+    padding-left: 10px;
+}
+
+/* HEADER */
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: #E7A5A5;
+}
+header h1
+{
+    text-align: center;
+    padding-top: 25px;
+}
+  
+header i
+{
+    position: relative;
+    float: right;
+    font-size: 30px;
+    bottom: 25px;
+    right: 30px;
+}
+
+/* MAIN-IDEA */
+#main-idea
+{
+    background-image: url(images/R\ \(8\).jpg);
+    height: 600px;
+}
+#main-idea p
+{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-top: 300px;
+    font-weight: bold;
+}
+
+/* ARTICLE */
+#articles
+{
+    background-color: white;
+    position: relative  ;
+}
+.bonus
+{
+    background-color: #F97C36;
+    opacity: 70%;
+    height: 35px;
+    width: 100px;
+    float: right;
+}
+.bonus p
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#articles .choose
+{
+    width: 1000px;
+    height: 100%;
+    margin-left: 160px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+i:hover
+{
+    color: #FF5C00;
+}
+#articles .choose i
+{
+    position: relative;
+    font-size: 20px;
+    bottom: 20px;
+    padding-right: 10px;
+    float: right;
+}
+#articles .choose .choose-1
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #e7a5a555;
+    color: black;
+}
+
+#articles .choose .choose-2
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-3
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-4
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-5
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-6
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-7
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-8
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-9
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-10
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-11
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-12
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-13
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-14
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-15
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+#articles .choose .choose-1 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-2 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-3 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-4 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-5 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-6 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-7 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-8 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-9 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-10 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-11 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-12 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-13 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-14 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+#articles .choose .choose-15 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+
+/* FOOTER */
+
+footer
+{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 400px;
+    background-color: #36353D;
+    height: 300px;
+    color: white;
+    font-style: normal;
+    position: relative;
+}
+footer .div
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    gap: 60px;
+}
+footer .div h1
+{
+    font-weight: 0;
+    font-size: 30px;
+}
+footer .div .div4
+{
+    margin-left: 250px;
+}
+footer .div .div4 ul 
+{
+    padding-top: 5px;
+    font-size: 25px;
+    gap: 40px;
+    display: flex;
+    float: right;
+}
+footer .div .div4 h1
+{
+    margin-left: 25px;
+}
+footer .div .div5
+{
+    display: flex;
+    position: absolute;
+   /* float: left;*/
+    top: 230px;
+    right: 80%;
+    margin-left: 0px;
+}
+footer .div .div5 i
+{
+    padding-right: 2px;
+}
+
+footer .div ul li
+{
+    padding-top: 5px;
+    list-style: none;
+}

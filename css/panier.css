@@ -1,0 +1,144 @@
+/* GENERALE */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+a
+{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.border
+{
+    position: relative;
+    float: right;
+    right: 450px;
+    border: 1px solid;
+    height: 1750px;
+}
+
+/* HEADER */
+header
+{
+   height: 150px;
+}
+
+header h1
+{
+   padding-left: 25px;
+   padding-top: 50px;
+   position: absolute;
+}
+
+header  nav
+{
+   position: relative;
+   text-align: center;
+
+}
+header nav ul
+{
+   margin: 0 auto;
+padding-top: 15px;
+
+}
+header nav ul li
+{
+   list-style: none;
+   text-decoration: none;
+   display: inline;
+   font-style: italic;
+   text-transform: uppercase;
+   margin-left: 25px;
+   padding-right: 25px;
+}
+header i
+{
+   float: right;
+   position: relative;
+   padding-right: 15px;
+   font-size: 25px;
+   padding-top: 60px;
+}
+
+/* TITLE */
+.title h1
+{
+    font-weight: bold;
+    margin-top:200px ;
+    text-transform: uppercase;
+    text-align: center;
+    right: 43%;
+}
+.title img
+{
+    margin-top:300px ;
+    margin-left: 550px;
+}
+.table .t1
+{
+    background-color: #36353D;
+    width: 1200px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.table .t1 ul .li1
+{
+   float: left;
+   padding-bottom: 25px;
+}
+.table .t1 ul li
+{
+   color: white;
+   padding-top: 15px;
+   padding-right: 50px;
+   padding-left: 50px;
+   float: right;
+   display: inline;
+   text-align: center;
+}
+.table .part1
+{
+    height: 515px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+.table .part1 img
+{
+       padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
+.table .part2 
+{
+   height: 550px;
+   width: 250px;
+   margin-top: 200px;
+   background-color: #E7A5A555;
+   color: black;
+}
+.table .part2 img
+{
+   padding-top: 0;
+   height: 350px;
+   width: 250px;
+}
+.table .part3
+{
+    height: 500px;
+    width: 250px;
+    margin-top: 200px;
+    background-color: #E7A5A555;
+    color: black;
+}
+.table .part3 img
+{
+    padding-top: 0;
+    height: 350px;
+    width: 250px;
+}
