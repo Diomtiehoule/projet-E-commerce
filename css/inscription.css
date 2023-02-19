@@ -21,7 +21,7 @@ p
 {
     height: 700px;
     width: 100%;
-    background-image: url("images/nba-resized.jpg");
+    background-image: url("../images/nba-resized.jpg");
 }
 #main-idea .container .sign_space
 {
