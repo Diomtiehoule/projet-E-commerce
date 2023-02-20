@@ -106,6 +106,19 @@ i:hover
     background-color: #E7A5A555;
     color: black;
 }
+#articles .choose .choose-1 .Solde1 p
+{
+    position: absolute;
+    background-color: #f97d36c9;
+    color: white;
+    bottom: 3370px;
+    left: 315px;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
 
 #articles .choose .choose-2
 {
@@ -138,6 +151,19 @@ i:hover
     margin-top: 200px;
     background-color: #E7A5A555;
     color: black;
+}
+#articles .choose .choose-5 .Solde5 p
+{
+    position: absolute;
+    background-color: #f97d36c9;
+    color: white;
+    bottom: 2650px;
+    left: 680px;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
 }
 #articles .choose .choose-6
 {
@@ -187,6 +213,19 @@ i:hover
     background-color: #E7A5A555;
     color: black;
 }
+#articles .choose .choose-11 .Solde11 p
+{
+    position: absolute;
+    background-color: #f97d36c9;
+    color: white;
+    bottom: 1200px;
+    left: 680px;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
 #articles .choose .choose-12
 {
     height: 515px;
@@ -218,6 +257,19 @@ i:hover
     margin-top: 200px;
     background-color: #E7A5A555;
     color: black;
+}
+#articles .choose .choose-15 .Solde15 p
+{
+    position: absolute;
+    background-color: #f97d36c9;
+    color: white;
+    bottom: 480px;
+    left: 1060px;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
 }
 #articles .choose .choose-1 img
 {
