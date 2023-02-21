@@ -388,7 +388,7 @@ footer .div
     padding-top: 20px;
     padding-left: 10px;
     display: flex;
-    gap: 60px;
+    gap: 20px;
 }
 footer .div h1
 {
@@ -434,6 +434,17 @@ footer .div ul li
 
 
 @media screen and (max-width: 1210px) {
+    header h1
+    {
+        font-size: 25px;
+    }
+    header i
+    {
+        right: 30px;
+        position: relative;
+        padding-right: 10px;
+        font-size: 25px;
+    }
     header
     {
         width: 100%;
@@ -447,8 +458,8 @@ footer .div ul li
     }
     #articles .choose
     {
-        margin-left: 10px;
-        margin-right: 50px;
+        margin-left: 60px;
+        margin-right: 40px;
         margin-bottom: 50px;
         display: flex;
         gap: 70px;
@@ -459,11 +470,37 @@ footer .div ul li
         width: 100%;
         margin: 0;
     }
-    footer .div .div4 ul 
+    footer .div
     {
-        font-size: 10px;
+        flex-wrap: wrap;
     }
-    
+    footer .div h1
+    {
+        font-size: 20px;
+    }
+    footer .div .div4
+    {
+        padding-top: 60px;
+        padding-left: 40px;
+    }
+    footer .div .div4 ul 
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    gap: 20px;
+    display: flex;
+    float: right;
+}
+footer .div .div5
+{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   font-size: 12px;
+   gap: 5px;
+}
 }
 /*@media screen and (max-width: 320px) {
     #articles .choose
