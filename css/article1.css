@@ -496,7 +496,7 @@ footer .div ul li
 footer .div .div5
 {
    position: absolute;
-   left: 0;
+   right: 10px;
    bottom: 0;
    font-size: 12px;
    gap: 5px;

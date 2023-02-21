@@ -142,3 +142,44 @@ header i
     height: 350px;
     width: 250px;
 }
+
+
+@media screen and (max-width:1250px) {
+   header h1
+   {
+      font-size: 20px;
+   }
+   header nav ul
+   {
+      padding-left: 100px;
+      font-size: 10px;
+      text-align: center;
+   }
+   header i
+   {
+      float: right;
+      font-size: 20px;
+   }
+   .title h1
+   {
+      font-size: 20px;
+
+   }
+   .title img
+   {
+      position: relative;
+      right: 440px;
+   }
+   #panier .table .t1
+   {
+      margin: 0;
+      margin-left: 15px;
+      width: 450px;
+   }
+   .table .t1 ul li
+   {
+      padding-left: 10px;
+      padding-right: 5px;
+   }
+   
+}
