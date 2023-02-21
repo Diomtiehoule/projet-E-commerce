@@ -1,5 +1,6 @@
-
-
+document.getElementById('')
+let Click = document.querySelectorAll('.fa-cart-shopping');
+console.log(Click);
 
 function SaveArticle(Article1){
     localStorage.setItem("Article1" , JSON.stringify(Article1));
@@ -7,7 +8,7 @@ function SaveArticle(Article1){
 }
 
 function getArticle(){
-  let Article = localStorage.getItem("Article1");
+  let Article = localStorage.getItem("fa-cart-shopping");
   if (Article == null){
     return [];
   }else{
@@ -17,7 +18,7 @@ function getArticle(){
 
 function addArticle(product){
   
-    let Article =  getArticle();
+    let Article =  getArticle("fa-cart-shopping");
     let foundProduct = Article.find(p => p.id == product.id);
     if(foundProduct != undefined){
         foundProduct.quantity++;

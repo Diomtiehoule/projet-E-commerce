@@ -430,3 +430,35 @@ footer .div ul li
     padding-top: 5px;
     list-style: none;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    header
+    {
+        width: 100%;
+    }
+    #main-idea
+    {
+        width: 100%;
+    }
+    #articles .choose
+    {
+        margin-left: 10px;
+        margin-right: 50px;
+        display: flex;
+        gap: 70px;
+        width: 100%;
+    }
+    
+}
+/*@media screen and (max-width: 320px) {
+    #articles .choose
+    {
+        margin-left: 50px;
+        margin-right: 150px;
+        display: flex;
+        gap: 130px;
+    }*/
+    
+}

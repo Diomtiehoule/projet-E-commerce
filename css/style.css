@@ -10,19 +10,6 @@ a
     text-decoration: none;
     color: black;
 }
-@media all and (max-widht: 1400px) {
-    *
-    {
-        width: 90%;
-    }
-    img
-    {
-        display: inline-flex;
-    }
-
-    
-}
-
 
 /* HEADER */
 header
@@ -89,6 +76,7 @@ header i
 }
 
 /* MAIN-IDEA */
+
 #main-idea .space_color
 {
     margin-top: 300px;
@@ -353,7 +341,26 @@ top: 700px;
     right: 90px;
     padding-right: 15px;
 }
-
+@media screen and (max-width: 1300px) {
+    body{
+        width: 100%;
+    }
+    #main-idea{
+        width: 100%;
+    }
+    #body{
+        width: 100%;
+    }
+    #avantages
+    {
+        width: 100%;
+    }
+    .bulle
+    {
+        width: 100%;
+    }
+    
+}
 
 
 /* FOOTER */
@@ -416,4 +423,29 @@ footer .div ul li
 {
     padding-top: 5px;
     list-style: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #main-idea .space_color img
+    {
+        size: 33.33vw;
+        object-fit: fill;
+    }
+    #main-idea .space_color .offres
+    {
+        display: inline;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    #main-idea .space_color p
+    {
+        text-align: center;
+        margin-left: 0;
+    }
+    footer
+    {
+        margin-right: 0px;
+        width: 100%;
+    }
 }
