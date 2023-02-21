@@ -87,6 +87,12 @@ header i
     gap: 5px;
     flex-wrap: wrap;
 }
+#articles .choose .stars
+{
+    flex-wrap: wrap;
+    padding-right: 75px;
+    padding-bottom: 25px;
+}
 i:hover
 {
     color: #FF5C00;
@@ -101,7 +107,7 @@ i:hover
 }
 #articles .choose .choose-1
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #e7a5a555;
@@ -110,7 +116,7 @@ i:hover
 
 #articles .choose .choose-2
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -118,7 +124,7 @@ i:hover
 }
 #articles .choose .choose-3
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -126,7 +132,7 @@ i:hover
 }
 #articles .choose .choose-4
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -134,7 +140,7 @@ i:hover
 }
 #articles .choose .choose-5
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -142,7 +148,7 @@ i:hover
 }
 #articles .choose .choose-6
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -150,7 +156,7 @@ i:hover
 }
 #articles .choose .choose-7
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -158,7 +164,7 @@ i:hover
 }
 #articles .choose .choose-8
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -166,7 +172,7 @@ i:hover
 }
 #articles .choose .choose-9
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -174,7 +180,7 @@ i:hover
 }
 #articles .choose .choose-10
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -182,7 +188,7 @@ i:hover
 }
 #articles .choose .choose-11
 {
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -190,31 +196,7 @@ i:hover
 }
 #articles .choose .choose-12
 {
-    height: 500px;
-    width: 250px;
-    margin-top: 200px;
-    background-color: #E7A5A555;
-    color: black;
-}
-#articles .choose .choose-13
-{
-    height: 500px;
-    width: 250px;
-    margin-top: 200px;
-    background-color: #E7A5A555;
-    color: black;
-}
-#articles .choose .choose-14
-{
-    height: 500px;
-    width: 250px;
-    margin-top: 200px;
-    background-color: #E7A5A555;
-    color: black;
-}
-#articles .choose .choose-15
-{
-    height: 500px;
+    height: 510px;
     width: 250px;
     margin-top: 200px;
     background-color: #E7A5A555;
@@ -292,25 +274,6 @@ i:hover
     height: 350px;
     width: 250px;
 }
-#articles .choose .choose-13 img
-{
-    padding-top: 0;
-    height: 350px;
-    width: 250px;
-}
-#articles .choose .choose-14 img
-{
-    padding-top: 0;
-    height: 350px;
-    width: 250px;
-}
-#articles .choose .choose-15 img
-{
-    padding-top: 0;
-    height: 350px;
-    width: 250px;
-}
-
 /* FOOTER */
 
 footer

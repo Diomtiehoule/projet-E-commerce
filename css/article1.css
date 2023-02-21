@@ -43,8 +43,10 @@ header i
 /* MAIN-IDEA */
 #main-idea
 {
-    background-image: url(../images/R\ \(7\).jpg);
+    background-image: url(../images/R\ \(7\)\ 2.jpg);
+    background-repeat: no-repeat;
     height: 650px;
+    width: 100%;
 }
 #main-idea p
 {
@@ -257,6 +259,12 @@ i:hover
     margin-top: 200px;
     background-color: #E7A5A555;
     color: black;
+}
+#articles .choose .stars
+{
+    flex-wrap: wrap;
+    padding-right: 75px;
+    padding-bottom: 25px;
 }
 #articles .choose .choose-15 .Solde15 p
 {
