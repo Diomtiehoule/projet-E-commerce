@@ -108,7 +108,7 @@ i:hover
     background-color: #E7A5A555;
     color: black;
 }
-#articles .choose .choose-1 .Solde1 p
+/*#articles .choose .choose-1 .Solde1 p
 {
     position: absolute;
     background-color: #f97d36c9;
@@ -120,7 +120,7 @@ i:hover
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-}
+}*/
 
 #articles .choose .choose-2
 {
@@ -154,7 +154,7 @@ i:hover
     background-color: #E7A5A555;
     color: black;
 }
-#articles .choose .choose-5 .Solde5 p
+/*#articles .choose .choose-5 .Solde5 p
 {
     position: absolute;
     background-color: #f97d36c9;
@@ -166,7 +166,7 @@ i:hover
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-}
+}*/
 #articles .choose .choose-6
 {
     height: 515px;
@@ -215,7 +215,7 @@ i:hover
     background-color: #E7A5A555;
     color: black;
 }
-#articles .choose .choose-11 .Solde11 p
+/*#articles .choose .choose-11 .Solde11 p
 {
     position: absolute;
     background-color: #f97d36c9;
@@ -227,7 +227,7 @@ i:hover
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-}
+}*/
 #articles .choose .choose-12
 {
     height: 515px;
@@ -266,7 +266,7 @@ i:hover
     padding-right: 75px;
     padding-bottom: 25px;
 }
-#articles .choose .choose-15 .Solde15 p
+/*#articles .choose .choose-15 .Solde15 p
 {
     position: absolute;
     background-color: #f97d36c9;
@@ -278,7 +278,7 @@ i:hover
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
-}
+}*/
 #articles .choose .choose-1 img
 {
     padding-top: 0;
@@ -458,6 +458,10 @@ footer .div ul li
     {
         width: 100%;
         margin: 0;
+    }
+    footer .div .div4 ul 
+    {
+        font-size: 10px;
     }
     
 }
