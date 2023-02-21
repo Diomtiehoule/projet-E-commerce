@@ -433,22 +433,31 @@ footer .div ul li
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
     header
     {
         width: 100%;
     }
-    #main-idea
+    #main-idea .image
     {
         width: 100%;
+        margin: 0;
+        padding: 0;
+        
     }
     #articles .choose
     {
         margin-left: 10px;
         margin-right: 50px;
+        margin-bottom: 50px;
         display: flex;
         gap: 70px;
         width: 100%;
+    }
+    footer
+    {
+        width: 100%;
+        margin: 0;
     }
     
 }
