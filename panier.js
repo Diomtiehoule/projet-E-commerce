@@ -1,4 +1,23 @@
-document.getElementById('')
+/*let button = document.getElementById(".fa-cart-shopping")
+
+button.addEventListener(".fa-cart-shopping" , () =>{
+  let optionProduct =
+  {
+    productId : productId ,
+    quantity : document.getElementById('quantity').value,
+    price : document.getElementById('price').value
+  }
+
+  if(productInLocalStorage){
+    productInLocalStorage.push(optionProduct)
+    localStorage.setItem("product", JSON.stringify(productInLocalStorage))
+  }else{
+    productInLocalStorage =[]
+    productInLocalStorage.push(optionProduct)
+    localStorage.setItem("product", JSON.stringify(productInLocalStorage))
+
+  }
+})
 let Click = document.querySelectorAll('.fa-cart-shopping');
 console.log(Click);
 
@@ -14,11 +33,11 @@ function getArticle(){
   }else{
     return JSON.parse(Article);
   }
-}
+}*/
 
 function addArticle(product){
   
-    let Article =  getArticle("fa-cart-shopping");
+    let Article =  getArticle(".fa-cart-shopping");
     let foundProduct = Article.find(p => p.id == product.id);
     if(foundProduct != undefined){
         foundProduct.quantity++;

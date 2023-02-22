@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
+  
     <title>Projet e-commerce</title>
 </head>
 
@@ -16,14 +17,14 @@
         <nav>
             <ul>
                 <li><a href="../html/aide.html">aide</a></li>
-                <li><a href="#">articles</a>
-                <ul>
+                <!--<li id="article"><a href="#">articles</a>
+                <ul id="elementsA">
                     <li><a href="article1.html">Maillots & Survetement</a> </li><br><br>
                     <li><a href="article2.html">Accessoires & Autres</a> </li>
                 </ul>
-                </li>
-                <li><a href="#">comptes</a>
-                    <ul>
+                </li>-->
+                <li id="connexion"><a href="#">comptes</a>
+                    <ul id="elementsC">
                         <li><a href="connexion.html">Connection</a></li><br><br>
                         <li><a href="inscription.html">Inscription</a></li>
                     </ul>
@@ -42,28 +43,15 @@
 
         <div class="offres">
             <div class="offre1">
-                
-                <img src="../images/img2.jpg">
-                <p>Maillot Chicago</p>
-                <p>Version Pro</p>
-                <p>15.000frs</p>
-            </p><i class="fa-solid fa-cart-shopping"></i>
+              <a href="article1.html"><h1>Maillots &  Survetement</h1></a>
+            </div>
+            <div class="offre2">
+                <a href="article2.html"><h1>Accessoires & Autres</h1></a>
+            </div>
+            <!--<div class="offre3">-->
+               
+            </div>
         </div>
-        <div class="offre2">
-            <img src="../images/img3.jpg">
-            <p>Maillot Nets</p>
-            <p>Version Pro</p>
-            <p>15.000frs</p>
-        </p><i class="fa-solid fa-cart-shopping"></i>
-    </div>
-    <div class="offre3">
-        <img src="../images/img4.webp">
-        <div class="Solde3"><p>-50%</p></div>
-        <p>Maillot USA</p>
-        <p>Version Pro</p>
-        <p>15.000frs</p>
-    </p><i class="fa-solid fa-cart-shopping"></i>
-</div>
     </section>
 
     <section id="body">
@@ -182,7 +170,7 @@ livraison partout dans le<br>
     </div>
 </div>
     </footer>
-    
+    <script src="../menu.js"></script>
 </body>
 
 </html>

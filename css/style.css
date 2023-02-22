@@ -45,12 +45,21 @@ header nav ul ul
     position: absolute;
     right: 125px;
     gap: 10px;
-    /*visibility: collapse;*/
+    /*visibility: hidden;*/
 }
 
 header nav ul li:hover ul
 {
     visibility: visible;
+    /*display: flex;*/
+    font-size: 10px;
+}
+
+header nav ul li #elementsA.active , #elementsC.active
+{
+    visibility: visible;
+    display: flex;
+    font-size: 10px;
 
 }
 
@@ -110,56 +119,48 @@ header i
 }
 #main-idea .offres .offre1
 {
+    background-image: url('../images/sign.jpg');
     position: relative;
-    width: 250px;
-    height: 450px;
-    background-color: white;
+    width: 30%;
+    height: 500px;
     left: 100px;
-    top: 700px;
+    top: 600px;
 }
-#main-idea .offres .offre1 .Solde1 p
+#main-idea .offres .offre2
 {
-    position: absolute;
-    background-color: #f97d36c9;
-    color: white;
-    bottom: 416px;
-    left: 180px;
-    width: 70px;
-    font-weight: bold;
+    background-image: url('../images/sign.jpg');
+    position: relative;
+    width: 30%;
+    height: 500px;
+    top: 600px;
+    left: 400px;
+
 }
-#main-idea .offres .offre2 .Solde2 p
+#main-idea .offres .offre1 h1
 {
-    position: absolute;
-    background-color: #f97d36c9;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
     color: white;
-    bottom: 416px;
-    left: 180px;
-    width: 70px;
-    font-weight: bold;
 }
-#main-idea .offres .offre3 .Solde3 p
+#main-idea .offres .offre2 h1
 {
-    position: absolute;
-    background-color: #f97d36c9;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
     color: white;
-    bottom: 416px;
-    left: 180px;
-    width: 70px;
-    font-weight: bold;
 }
+
 
 #main-idea .offres
 {
     display: flex;
     
-}
-#main-idea .offres p
-{
-    position: absolute;
+    
 }
 #main-idea .offres .offre1 img
 {
-    position: relative;
+    position: absolute;
    width: 250px; 
    height: 300px;
    left: 0;
@@ -170,37 +171,6 @@ header i
    width: 250px; 
    height: 300px;
    left: 0;
-}
-#main-idea .offres .offre3 img
-{
-    position: absolute;
-   width: 250px; 
-   height: 300px;
-   left: 0;
-}
-#main-idea .offres .offre2
-{
-    position: relative;
-width: 250px;
-height: 450px;
-background-color: white;
-left: 280px;
-top: 700px;
-}
-#main-idea .offres .offre3
-{
-    position: relative;
-width: 250px;
-height: 450px;
-background-color: white;
-left: 450px;
-top: 700px;
-}
-#main-idea .border .offres p
-{
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 /* BODY */
@@ -446,6 +416,10 @@ footer .div ul li
     left: 90px;
     width: 150px;
 }
+#main-idea .offres 
+{
+    flex-wrap: wrap;
+}
 #main-idea .offres .offre1
 {
     position: relative;
@@ -478,22 +452,7 @@ footer .div ul li
    height: 140px;
    left: 0;
 }
-#main-idea .offres .offre3
-{
-    position: relative;
-    width: 100px;
-    height: 200px;
-    background-color: white;
-    left: -90px;
-    top: 360px;
-}
-#main-idea .offres .offre3 img
-{
-    position: relative;
-   width: 100px; 
-   height: 140px;
-   left: 0;
-}
+
 .code-promo
 {
     position: relative;

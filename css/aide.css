@@ -228,6 +228,59 @@ footer .div ul li
       float: right;
       font-size: 20px;
    }
+   .help h1
+   {
+    font-size: 15px;
+   }
+   .help input
+   {
+    width: 50%;
+   }
+   .border
+   {
+    position: absolute;
+   }
+   #left
+   {
+    width: 50%;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    font-size: 15px;
+    text-align: center;
+   }
+   #left h1,h2
+   {
+    font-size: 20px;
+   }
+   #left p
+   {
+    font-size: 10px;
+   }
+   #right 
+   {
+    width: 50%;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+   }
+   #right h1
+   {
+    font-size: 20px;
+   }
+   #right p
+   {
+    font-size: 10px;
+   }
+   .border
+{
+    position: relative;
+    right: 200px;
+    border: 1px solid;
+    height: 1200px;
+}
     footer
     {
         width: 100%;

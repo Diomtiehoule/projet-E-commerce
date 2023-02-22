@@ -457,10 +457,13 @@ footer .div ul li
     {
         width: 100%;
     }
+    #main-idea
+    {
+        width: 100%;
+    }
     #main-idea .image
     {
-        size: 33.33vw;
-        /*width: 100%;*/
+        width: 100%;
         margin: 0;
         padding: 0;
         
