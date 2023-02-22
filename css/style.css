@@ -45,11 +45,10 @@ header nav ul ul
     position: absolute;
     right: 125px;
     gap: 10px;
-    display: flex;
-   /* visibility: hidden;*/
+    /*visibility: collapse;*/
 }
 
-header nav ul li:hover li
+header nav ul li:hover ul
 {
     visibility: visible;
 
@@ -341,26 +340,6 @@ top: 700px;
     right: 90px;
     padding-right: 15px;
 }
-@media screen and (max-width: 1300px) {
-    body{
-        width: 100%;
-    }
-    #main-idea{
-        width: 100%;
-    }
-    #body{
-        width: 100%;
-    }
-    #avantages
-    {
-        width: 100%;
-    }
-    .bulle
-    {
-        width: 100%;
-    }
-    
-}
 
 
 /* FOOTER */
@@ -427,25 +406,31 @@ footer .div ul li
 
 
 @media screen and (max-width: 1200px) {
+    header h1
+    {
+        font-size: 25px;
+        padding-right: 20px;
+    }
+    header nav ul
+    {
+        font-size: 15px;
+        padding-left: 100px;
+    }
+    #main-idea .space_color
+    {
+        width: 100%;
+    }
     #main-idea .space_color img
     {
-        size: 33.33vw;
-        object-fit: fill;
+        top: 25px;
+        width: 500px;
+        right: 50px;
+        left: 50px;
     }
-    #main-idea .space_color .offres
+    #main-idea .space_color img P
     {
-        display: inline;
-        margin-bottom: 5px;
-        width: 100%;
+        font-size: px;
     }
-    #main-idea .space_color p
-    {
-        text-align: center;
-        margin-left: 0;
-    }
-    footer
-    {
-        margin-right: 0px;
-        width: 100%;
-    }
+
+
 }

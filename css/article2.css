@@ -338,9 +338,36 @@ footer .div ul li
 
 
 @media screen and (max-width: 1210px) {
+    header h1
+    {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    header i
+    {
+        right: 30px;
+        position: relative;
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    header #return
+    {
+        float: left;
+        padding-left: 10px;
+        left: 2%;
+        font-size: 25px;
+    }
     header
     {
         width: 100%;
+    }
+    #main-idea .image
+    {
+        size: 33.33vw;
+        /*width: 100%;*/
+        margin: 0;
+        padding: 0;
+        
     }
     #main-idea .image
     {
@@ -351,8 +378,8 @@ footer .div ul li
     }
     #articles .choose
     {
-        margin-left: 150px;
-        margin-right: 50px;
+        margin-left: 60px;
+        margin-right: 40px;
         margin-bottom: 50px;
         display: flex;
         gap: 70px;
@@ -365,15 +392,43 @@ footer .div ul li
     }
     footer .div
     {
-        padding-top: 20px;
-        padding-left: 10px;
-        display: flex;
         flex-wrap: wrap;
-        gap: 30px;
     }
     footer .div h1
     {
-        font-size: 15px;
+        font-size: 20px;
     }
+    footer .div .div4
+    {
+        padding-top: 60px;
+        padding-left: 40px;
+    }
+    footer .div .div4 ul 
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    gap: 20px;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+footer .div .div3 li
+{
+    font-size: 10;
+}
+footer .div .div5
+{
+    display: inline;
+    padding-bottom: 5px;
+    padding-right: 5px;
+   font-size: 10px;
+   gap: 5px;
+   right: 0;
+   bottom: 0;
+   padding-bottom: 0;
+
+}
     
 }
