@@ -31,7 +31,7 @@ p
    /* margin-left: 500px;*/
     text-align: center;
     height: 510px; ;
-    width: 400px; ;
+    width: 100%; ;
     background-color: #36353D;
 }
 #main-idea .container .sign_space h1
@@ -77,4 +77,20 @@ p
     font-size: 20px;
     text-align: center;
     font-style: italic;
+}
+
+@media screen and (1300px) {
+    #main-idea .container .sign_space
+{
+    
+    top: 65px;
+    left: 650px;
+   /* margin-left: 500px;*/
+    text-align: center;
+    height: 100% ;
+    width: 100% ;
+    background-color: #36353D;
+}
+    }
+    
 }
