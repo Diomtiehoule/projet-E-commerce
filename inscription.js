@@ -16,4 +16,7 @@ button.addEventListener("click", function(){
     localStorage.setItem('nom',Username.value)
     localStorage.setItem('motdepasse',Cpasse.value)
     localStorage.setItem('email',email.value)
+
+    location.pathname = '../html/connexion.html'
 })
+
