@@ -81,3 +81,11 @@ function getPriceProduct(){
   }
   return price;
 }
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  const buttons = document.querySelectorAll('.fa-cart-shopping')
+  buttons.forEach(icon => icon.addEventListener('click', (e)=>{
+    const parent = e.target.closest('div')
+    console.log('parent', parent)
+  }))
+})

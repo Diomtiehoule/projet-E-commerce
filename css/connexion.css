@@ -78,3 +78,20 @@ p
     text-align: center;
     font-style: italic;
 }
+
+@media screen and (max-width: 1200px) {
+    #main-idea{
+        width: 100%;
+    }
+    #main-idea .container .sign_space
+{
+    float: left;
+    top: 50px;
+    left: 650px;
+    text-align: center;
+    height: 500px; ;
+    width: 400px ;
+    background-color: #36353D;
+}
+    
+}

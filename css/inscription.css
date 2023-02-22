@@ -1,9 +1,9 @@
 /* GENERALE */
 *
 {
-    margin: 0 ;
+    margin: 0;
     padding: 0;
-    color: white;
+    /* color: white; */
 }
 a
 {
@@ -27,11 +27,12 @@ p
 {
     position: relative;
     top: 65px;
-    left: 650px;
-   /* margin-left: 500px;*/
+    /* left: 650px; */
+    margin-left: 500px;
     text-align: center;
-    height: 510px; ;
-    width: 100%; ;
+    height: 510px;
+    width: 100%;
+    text-align: c;
     background-color: #36353D;
 }
 #main-idea .container .sign_space h1
@@ -86,8 +87,6 @@ p
     top: 65px;
     left: 650px;
    /* margin-left: 500px;*/
-    text-align: center;
-    height: 100% ;
     width: 100% ;
     background-color: #36353D;
 }
