@@ -290,8 +290,8 @@ footer
     {
         font-size: 20px;
     }
-    footer .div .div4
-    /*{
+    /*footer .div .div4
+    {
         padding-top: 60px;
         padding-left: 40px;
     }*/
@@ -312,7 +312,8 @@ footer .div .div3 li
 }
 footer .div .div5
 {
-    display: inline;
+    justify-content: center;
+    text-align: center;
     padding-bottom: 5px;
     padding-right: 5px;
    font-size: 10px;

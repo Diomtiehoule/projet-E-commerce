@@ -81,7 +81,7 @@ p
 
 @media screen and (max-width: 1200px) {
     #main-idea{
-   
+        width: 100%;
     }
     #main-idea .container .sign_space
 {
