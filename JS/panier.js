@@ -37,7 +37,7 @@ function getArticle(){
 
 function addArticle(product){
   
-    let Article =  getArticle(".fa-cart-shopping");
+    let Article =  getArticle();
     let foundProduct = Article.find(p => p.id == product.id);
     if(foundProduct != undefined){
         foundProduct.quantity++;

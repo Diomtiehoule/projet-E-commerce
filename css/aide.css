@@ -148,7 +148,7 @@ header i
 
 footer
 {
-    margin-top: 200px;
+    margin: 0px;
     padding: 0px;
     margin-top: 400px;
     background-color: #36353D;
@@ -157,31 +157,28 @@ footer
     font-style: normal;
     position: relative;
     top: 2000px;
-    bottom: 0;
 }
 footer .div
 {
     padding-top: 20px;
     padding-left: 10px;
     display: flex;
-    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 footer .div h1
 {
     font-weight: 0;
     font-size: 30px;
 }
-footer .div .div4
-{
-    margin-left: 250px;
-}
+
 footer .div .div4 ul 
 {
     padding-top: 5px;
     font-size: 25px;
     gap: 40px;
     display: flex;
-    float: right;
 }
 footer .div .div4 h1
 {
@@ -191,8 +188,8 @@ footer .div .div5
 {
     display: flex;
     position: absolute;
-   /* float: left;*/
-    top: 230px;
+    float: left;
+    top: 270px;
     right: 80%;
     margin-left: 0px;
 }
@@ -206,7 +203,6 @@ footer .div ul li
     padding-top: 5px;
     list-style: none;
 }
-
 @media screen and (max-width: 1200px) {
        header h1
    {
@@ -281,7 +277,7 @@ footer .div ul li
     border: 1px solid;
     height: 1200px;
 }
-    footer
+footer
     {
         width: 100%;
         margin: 0;
@@ -295,10 +291,10 @@ footer .div ul li
         font-size: 20px;
     }
     footer .div .div4
-    {
+    /*{
         padding-top: 60px;
         padding-left: 40px;
-    }
+    }*/
     footer .div .div4 ul 
 {
     padding-top: 15px;
@@ -316,10 +312,11 @@ footer .div .div3 li
 }
 footer .div .div5
 {
+    display: inline;
+    padding-bottom: 5px;
     padding-right: 5px;
    font-size: 10px;
    gap: 5px;
-   float: right;
    right: 0;
    bottom: 0;
    padding-bottom: 0;

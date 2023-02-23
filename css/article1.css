@@ -43,8 +43,8 @@ header i
 /* MAIN-IDEA */
 #main-idea
 {
-    background-image: url(../images/R\ \ \(7\)\ 2.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/R\ \(7\)\ 2.jpg);
+   background-repeat: no-repeat;
     height: 650px;
     width: 100%;
 }
@@ -382,30 +382,29 @@ footer
     color: white;
     font-style: normal;
     position: relative;
+    top: 2000px;
 }
 footer .div
 {
     padding-top: 20px;
     padding-left: 10px;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 footer .div h1
 {
     font-weight: 0;
     font-size: 30px;
 }
-footer .div .div4
-{
-    margin-left: 250px;
-}
+
 footer .div .div4 ul 
 {
     padding-top: 5px;
     font-size: 25px;
     gap: 40px;
     display: flex;
-    float: right;
 }
 footer .div .div4 h1
 {
@@ -415,8 +414,8 @@ footer .div .div5
 {
     display: flex;
     position: absolute;
-   /* float: left;*/
-    top: 230px;
+    float: left;
+    top: 270px;
     right: 80%;
     margin-left: 0px;
 }
@@ -491,10 +490,10 @@ footer .div ul li
         font-size: 20px;
     }
     footer .div .div4
-    {
+    /*{
         padding-top: 60px;
         padding-left: 40px;
-    }
+    }*/
     footer .div .div4 ul 
 {
     padding-top: 15px;
