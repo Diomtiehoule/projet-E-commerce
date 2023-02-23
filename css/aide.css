@@ -210,10 +210,9 @@ footer .div ul li
    }
    header nav ul
    {
-      padding-left: 100px;
-      font-size: 10px;
-      text-align: center;
-      gap: 50px;
+    font-size: 10px;
+    display: inline;
+    padding-left: 100px;
    }
    header nav ul li
    {
