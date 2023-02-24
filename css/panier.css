@@ -144,6 +144,66 @@ header i
     width: 250px;
 }
 
+/* FOOTER */
+
+footer
+{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 400px;
+    background-color: #36353D;
+    height: 300px;
+    color: white;
+    font-style: normal;
+    position: relative;
+    top: 2000px;
+}
+footer .div
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+footer .div h1
+{
+    font-weight: 0;
+    font-size: 30px;
+}
+
+footer .div .div4 ul 
+{
+    padding-top: 5px;
+    font-size: 25px;
+    gap: 40px;
+    display: flex;
+}
+footer .div .div4 h1
+{
+    margin-left: 25px;
+}
+footer .div .div5
+{
+    display: flex;
+    position: absolute;
+    float: left;
+    top: 270px;
+    right: 80%;
+    margin-left: 0px;
+}
+footer .div .div5 i
+{
+    padding-right: 2px;
+}
+
+footer .div ul li
+{
+    padding-top: 5px;
+    list-style: none;
+}
+
 
 @media screen and (max-width:1250px) {
    header h1

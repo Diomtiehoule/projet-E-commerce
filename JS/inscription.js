@@ -1,15 +1,15 @@
 console.log(document)
-let button = document.querySelector(".sign")
+let button = document.querySelector("sign")
 /*let pass = document.querySelector('#password')
 console.log(pass);*/
 
-let Username = document.querySelector('#name')
+let Username = document.querySelector('name')
 console.log(name);
 
-let Cpasse = document.querySelector('#password')
+let Cpasse = document.querySelector('password')
 console.log(Cpasse);
 
-let email = document.querySelector('#email')
+let email = document.querySelector('email')
 console.log(email);
 
 button.addEventListener("click", function(){
@@ -17,6 +17,6 @@ button.addEventListener("click", function(){
     localStorage.setItem('motdepasse',Cpasse.value)
     localStorage.setItem('email',email.value)
 
-    location.pathname = '../html/connexion.html'
+    location.pathname = ('../html/connexion.html')
 })
 

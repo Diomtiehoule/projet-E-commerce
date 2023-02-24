@@ -14,6 +14,7 @@ p
 {
     font-size: 15px;
     font-style: italic;
+    color: white;
 }
 
 /* MAIN-IDEA */
@@ -54,6 +55,7 @@ p
 }
 #main-idea .container .sign_space .checkbox
 {
+    margin-left: 5px;
    /*margin-right: 35px;*/
     margin-top: 10px;
     margin-bottom: 40px;
